@@ -1,0 +1,73 @@
+/* Apply enhanced styles to the table */
+table.cart {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Style the table header */
+table.cart thead th {
+  background-color: #007bff;
+  color: #ffffff;
+  text-align: left;
+  padding: 12px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+/* Style the table body rows */
+table.cart tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Style the product image */
+table.cart tbody td img {
+  max-width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+/* Style the "Remove" button */
+table.cart tbody td form {
+  display: inline;
+  margin: 0;
+}
+
+/* Style the "Total" row */
+table.cart tr.total td {
+  font-weight: bold;
+  border-top: 2px solid #e0e0e0;
+}
+
+/* Align the "Continue shopping" and "Checkout" buttons */
+p.text-right {
+  text-align: right;
+}
+
+/* Style the buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Light version of the button */
+.button.light {
+  background-color: #f2f2f2;
+  color: #007bff;
+}
+
+/* Hover effect on buttons */
+.button:hover {
+  background-color: #0056b3;
+}

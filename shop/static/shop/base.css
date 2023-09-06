@@ -1,0 +1,101 @@
+/* base.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+#header .logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+#subheader {
+  background-color: #000; /* Change background color to black */
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the cart in subheader */
+.cart {
+  background-color: #000; /* Change background color to black */
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Styles for the sidebar in list.html */
+#sidebar {
+  float: left;
+  width: 200px;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+#sidebar h3 {
+  margin-top: 0;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+#sidebar li {
+  margin-bottom: 5px;
+}
+
+#sidebar li a {
+  text-decoration: none;
+  color: #333;
+}
+
+#sidebar li.selected {
+  font-weight: bold;
+}
+
+/* Styles for the main content area in list.html */
+#main {
+  margin-left: 10px; /* 200px (sidebar width) + 20px (sidebar padding) */
+}
+
+.item {
+  display: inline-block; /* Display items in a horizontal line */
+  margin-right: 10px; /* Add spacing between items */
+  vertical-align: top; /* Align items at the top */
+  text-align: center; /* Center-align item content */
+}
+
+.item a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.item .product-name {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Additional Styles */
+#subheader {
+  background-color: #000; /* Change background color to black */
+  padding: 5px 10px; /* Adjust padding for a sleeker look */
+  margin-bottom: 10px; /* Add space between subheader and content */
+}

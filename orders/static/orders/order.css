@@ -1,0 +1,45 @@
+/* Style for the "Thank you" page */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto; /* Adding some top margin for spacing */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px; /* Adding a bit of top margin for spacing */
+}
+
+.order-number {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Adding some additional styling for the message box */
+.message-box {
+  border: 2px solid #007bff;
+  padding: 15px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Add more styles as needed */

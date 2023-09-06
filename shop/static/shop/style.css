@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Set the background color to black */
+  color: #fff; /* Set the default text color to white */
+  font-family: Arial, sans-serif; /* Use a common font for text */
+}
+
+/* Styles for the product detail container */
+.product-detail {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #000;
+  border-radius: 8px;
+}
+
+/* Styles for the product image */
+.product-detail img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the product name */
+.product-detail h1 {
+  font-size: 28px;
+  color: #fff; /* Changed text color to white */
+  margin-bottom: 15px;
+}
+
+/* Styles for the product category */
+.product-detail h2 {
+  font-size: 20px;
+  color: #999; /* Changed text color to a lighter shade */
+  margin-bottom: 10px;
+}
+
+.product-detail h2 a {
+  color: #999; /* Changed link color to a lighter shade */
+  text-decoration: none;
+}
+
+.product-detail h2 a:hover {
+  color: #fff; /* Changed link color to white on hover */
+}
+
+/* Styles for the product price */
+.product-detail .price {
+  font-size: 24px;
+  color: #00b300; /* Changed price color to green */
+  margin-bottom: 15px;
+}
+
+/* Description styles */
+.product-detail p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ccc; /* Changed text color to a lighter shade */
+}
+
+/* Link styles */
+a {
+  color: #00b300; /* Changed link color to green */
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #008000; /* Darker green on hover */
+  text-decoration: underline;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00b300; /* Green button background */
+  color: #000; /* Black button text */
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.button:hover {
+  background-color: #008000; /* Darker green on hover */
+  transform: scale(1.05);
+}

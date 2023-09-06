@@ -1,0 +1,16 @@
+{% extends "shop/base.html" %}
+{% load static %}
+{% block title %}
+    Thank you
+{% endblock %}
+{% block content %}
+    <link href="{% static 'orders/order.css' %}" rel="stylesheet">
+    <div class="container">
+        <h1>Thank you</h1>
+        <p>Your order has been successfully completed. Your order number is
+            <span class="order-number">{{ order.id }}</span>.
+        </p>
+    </div>
+{% endblock %}
+
+
